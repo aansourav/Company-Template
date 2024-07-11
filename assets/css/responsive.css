@@ -1,0 +1,200 @@
+
+/* min css */
+ 
+@media screen and (min-width: 992px) {
+    .mobile-menu {
+        display: none;
+    }
+}
+
+
+
+
+/* CSS rules for extra extra large devices (Large Desktops, Wide Screens) */
+@media only screen and (max-width: 1440px) {
+    .wppool-slider__inner {
+        right: -5%;
+    }
+}
+
+@media  only screen and (max-width: 1399px) {
+    .wppool-slider__area {
+        background-size: contain;
+    }
+    .wppool-slider__inner {
+        right: 0;
+    }
+    
+}
+
+/* CSS rules for extra large devices (Desktops, Laptops) */
+@media only screen and (max-width: 1199px) {
+    .future-listing__list ul, .company-logo__list ul {
+        gap: 18px;
+    }
+    .wppool-about__area-image img {
+        width: 100%;
+    }
+    .wppool-about__area-content {
+        padding: 50px 0px 50px 50px;
+    }
+    .nice-select {
+        width: 150px;
+    }
+    .info-section__tab-summary-list {
+        flex-wrap: wrap;
+        padding: 6px 20px;
+        gap: 2px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+     
+     
+}
+
+/* CSS rules for large devices (Tablets in Landscape Mode, Small Desktop) */
+@media only screen and (max-width: 991px) {
+    .hero-section__menu {
+        display: none !important;
+    }
+    .wppool-about__area-image img {
+        width: auto;
+    }
+    .wppool-about__area-image {
+        text-align: center;
+    }
+    .footer__item-mobile-footer {
+        margin: 30px 0px;
+    }
+    .hero-section__content-list ul {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 64px;
+    }
+    .company-table__title-right input {
+        width: 100%;
+    }
+}
+
+/* CSS rules for medium devices (Tablets in Portrait Mode, Smartphones in Landscape Mode) */
+@media only screen and (max-width: 767px) {
+    .wppool-slider__bottom { 
+        justify-content: center;
+        gap: 30px;
+    }
+    .wppool-slider {
+        margin-bottom: 100px;
+    }
+    .future-listing {
+        margin: 80px 0px 100px;
+    }
+    .wppool-about {
+        margin-bottom: 80px;
+    }
+}
+
+/* CSS rules for small / smartphone devices */
+@media only screen and (max-width: 600px) {
+    .company-logo__title {
+        text-align: center;
+    }
+    .wppool-about__area-image img {
+        width: 100%;
+    }
+    .hero-section__content-list ul {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 0;
+        flex-direction: column;
+    }
+    .hero-section__content-inner { 
+        padding: 160px 0px 100px; 
+        margin-top: 50px; 
+    }
+    .hero-section__content-inner h2 {
+        font-size: 50px;
+    }
+    .info-section__tab-selector {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .info-section__tab-summary-list {
+        flex-wrap: wrap;
+        padding: 8px 0px;
+        gap: 2px;
+    }
+    .info-section__tab-summary-item {
+        padding: 6px 14px;
+        font-size: 10px;
+    }
+    .company-table__title { 
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .company-table__button-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .future-listing__list ul, .company-logo__list ul {
+        justify-content: center;
+    }
+    .future-listing__title {
+        text-align: center;
+    }
+    .hero-section__area {
+        padding: 0;
+    }
+    .hero-section {
+        margin: 0;
+    }
+    .hero-section__content-right {
+        margin: 0px 20px 20px;
+    }
+    .company-table__title-right input, .company-table__title-right input::placeholder {
+        font-size: 17px;
+    }
+    .wppool-about__area-content {
+        padding: 20px 0px 20px 20px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .company-table__area {
+        padding: 12px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .wppool-slider__bottom-left {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 34px;
+    }
+    .swiper-button-next, .swiper-rtl .swiper-button-prev {
+        left: 90px;
+    }
+    .swiper-button-prev, .swiper-rtl .swiper-button-next {
+        left: -90px;
+    }
+    .info-section__tab-selector-left {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .info-section__tab-selector-name {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+   
+}
